@@ -4,7 +4,8 @@
 (function () {
   "use strict";
   const doc = document.documentElement;
-  const ROOT = (document.querySelector('link[href$="assets/css/site.css"]').getAttribute("href") || "").replace("assets/css/site.css", "");
+  const siteCss = document.querySelector('link[href$="assets/css/site.css"]');
+  const ROOT = doc.dataset.root || (siteCss ? siteCss.getAttribute("href").replace("assets/css/site.css", "") : "");
   const store = {
     get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* storage blocked: ignore */ } },

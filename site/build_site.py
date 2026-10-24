@@ -131,6 +131,9 @@ def main():
         dest = out / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
+    for f in (SITE / "deck").glob("*"):
+        if f.suffix in (".css", ".js"):
+            shutil.copy(f, out / "deck" / f.name)
     shutil.copytree(SITE / "assets", out / "assets", dirs_exist_ok=True)
     shutil.copytree(REPO / "reports", out / "reports", dirs_exist_ok=True)
     console = Path(a.console)
