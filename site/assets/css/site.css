@@ -135,11 +135,12 @@ section.block:first-of-type { border-top: 0; }
 .team li span { color: var(--muted); font-size: 14px; text-align: right; }
 
 /* ---------- journey page ---------- */
-.jhead { padding: 40px 0 8px; }
-@media (min-width: 720px) { .jhead { padding: 64px 0 12px; } }
+.jhead { padding-block: 40px 8px; }
+@media (min-width: 720px) { .jhead { padding-block: 64px 12px; } }
 .jhead .q { font-size: 19px; color: var(--text-2); max-width: 62ch; }
-.jbody { display: grid; gap: 32px; padding: 24px 0 64px; }
+.jbody { display: grid; gap: 32px; padding-block: 24px 64px; }
 @media (min-width: 1020px) { .jbody { grid-template-columns: 220px 1fr; gap: 48px; } }
+.jbody > aside, .jbody > article { min-width: 0; }
 .jsteps { list-style: none; padding: 0; margin: 0; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: thin; }
 .jsteps a { display: flex; gap: 8px; white-space: nowrap; padding: 8px 12px; border-radius: 9px; color: var(--text-2); text-decoration: none; font-size: 14px; border: 1px solid var(--border); background: var(--panel); }
 .jsteps a span { font: 600 12px/1.7 var(--mono); color: var(--muted); }
