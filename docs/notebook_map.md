@@ -21,4 +21,4 @@ Choices made during the inventory (2026-10-24):
 - Week 5 operations had two copies; they differ only in execution counts and Colab output IDs, so the newer `Test Divya file` copy was used.
 - Notebooks `04a` and `05b` show the 2026-08-17 local re-run outputs, not the Colab outputs quoted in the submitted reports. See [limitations.md](limitations.md).
 
-Notebooks `06` and `07` read inputs from `AIT506_DIR` (the course data folder) and `CEROP_RF_PKL` (the Random Forest from the release).
+Notebooks `06` and `07` read inputs from `AIT506_DIR` (the course data folder) and `CEROP_RF_PKL` (a copy of the Random Forest, available on request; see `models/README.md`).

@@ -9,7 +9,7 @@ Exported once from the course notebooks (2026-08-17) and only ever loaded read-o
 | `cerop_operations_preprocessor.pkl` | Week 4 `ColumnTransformer` (35 outputs) | 12 KB | `903708ae9088c1dbdf554b152fd502f18b0d6a37ea5020d2e2413a59b9938b3f` |
 | `cerop_operations_rf.pkl` | Tuned `RandomForestClassifier` (`final_model`, 500 trees, 27 features) | 1.24 GB | `b190d51974aca308bbd022f0fbe588df120cc37ca47522e1043245a5d59f6390` |
 
-The Random Forest is too large for git. Download it from the [v1.0 release](https://github.com/arthunya/cerop/releases/tag/v1.0) and check the hash.
+The Random Forest is too large for git and isn't hosted in this repo. It's available on request: open an issue or contact the author via [LinkedIn](https://linkedin.com/in/arthunya). Check any copy against the hash above.
 
 Saved with `xgboost==3.4.1` and `scikit-learn==1.9.0` (see `requirements.txt`). Loading them with other versions may warn or fail.
 

@@ -36,7 +36,7 @@ Two things worth knowing before you rerun anything:
 pip install -r requirements.txt
 ```
 
-Notebooks run in order, `01` to `07` ([docs/notebook_map.md](docs/notebook_map.md)). They need the raw and processed data described in [data/README.md](data/README.md); set `AIT506_DIR` to the folder that holds it. Notebooks `06` and `07` also need the 1.24 GB Random Forest from the [v1.0 release](https://github.com/arthunya/cerop/releases/tag/v1.0); point `CEROP_RF_PKL` at it.
+Notebooks run in order, `01` to `07` ([docs/notebook_map.md](docs/notebook_map.md)). They need the raw and processed data described in [data/README.md](data/README.md); set `AIT506_DIR` to the folder that holds it. Notebooks `06` and `07` also need the 1.24 GB Random Forest, which isn't hosted here (available on request; see [models/README.md](models/README.md)); point `CEROP_RF_PKL` at it.
 
 To rebuild the site data and run the console locally:
 
@@ -54,7 +54,7 @@ cd console && npm ci && CEROP_BASE=/ npm run dev
 | `notebooks/` | The eight course notebooks (outputs kept, local paths redacted) plus `06` and `07`, added for the demo and the site |
 | `results/` | Week 5 and 6 result CSVs, both Week 6 operations runs, tables extracted from the Final Report, and `web/` exports from notebook 07 |
 | `reports/` | Weekly reports, the Final Report and the deck, as PDF |
-| `models/` | The XGBoost model and both preprocessors (the Random Forest is a release asset) |
+| `models/` | The XGBoost model and both preprocessors (the 1.24 GB Random Forest is available on request) |
 | `scripts/` | The original demo scripts and `extract_report_tables.py` |
 | `console/` | The Risk Console (React + Vite) and the parity test |
 | `site/` | The showcase site, the deck, and the scripts that turn `results/` into page data |
