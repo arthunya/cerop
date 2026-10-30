@@ -7,11 +7,11 @@ Run in order. Each was copied from the course folder with outputs intact; the on
 | `01_eda_combined` | 3 | `Week 3/[Week_3]_Group_4_CEROP.ipynb` | Arthunya (financial), Aswin (operations) | Exploration of both datasets |
 | `02a_financial_cleaning` | 4 | `Week 4/WEEK_4_—_Financial_Layer_Cleaning_(Taiwan_Bankruptcy_Dataset).ipynb` | Arthunya | Sentinel tiers, capping, composites |
 | `02b_operations_cleaning` | 4 | `Week 4/Final/Wk4_Operations_Layer_Cleaning_FIXED.ipynb` | Aswin | Leakage columns, outliers, dates |
-| `03_pipeline_integration` | 4 | `Week 4/Final/Week4_CEROP_Pipeline_Integration_FIXED_v3_FIXED.ipynb` | Arthunya | One split-then-fit pipeline, GSCPI, checks |
+| `03_pipeline_integration` | 4 | `Week 4/Final/Week4_CEROP_Pipeline_Integration_FIXED_v3_FIXED.ipynb` | Divya | One split-then-fit pipeline, GSCPI, checks |
 | `04a_financial_model_selection` | 5 | `Week 5/GROUP/Ankit/Week5_Financial_Model_Selection.ipynb` | Ankit | LR vs RF vs XGBoost |
 | `04b_operations_model_selection` | 5 | `Week 5/GROUP/Test Divya file/AIT506_Week5_Operational_Model_Selection.ipynb` | Divya | LR vs linear SVM vs RF |
 | `05a_financial_finalization` | 6 | `Week 6/Group/Ankit/week6/week6/Week6_Financial_Model_Finalization.ipynb` | Ankit | Tuning, threshold checks, bootstrap |
-| `05b_operations_tuning` | 6 | `Week 6/Group/AIT506_Week6_Operations_Model_Tuning.ipynb` | Team | RF search, threshold calibration |
+| `05b_operations_tuning` | 6 | `Week 6/Group/AIT506_Week6_Operations_Model_Tuning.ipynb` | Divya | RF search, threshold calibration |
 | `06_live_demo_scoring_and_shap` | 7–8 | new | Arthunya | Runs the demo scripts; profit-ratio scale check |
 | `07_export_web_artifacts` | post-course | new | Arthunya | Scores, SHAP cases, what-if model for the site |
 

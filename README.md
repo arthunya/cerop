@@ -25,10 +25,10 @@ Two things worth knowing before you rerun anything:
 
 ## Team and roles
 
-- **Arthunya Kanoklertwongse (Aty):** financial layer (exploration and cleaning), Week 4 pipeline integration, the live demo (model export, scoring, SHAP explanations, Risk Console), coordination and report writing. Built this repo, the site and the deck after the course.
+- **Arthunya Kanoklertwongse (Aty):** financial layer (exploration and cleaning), verifying the operations leakage and auditing the team's notebooks, the live demo (model export, scoring, SHAP explanations, Risk Console), coordination and report writing. Built this repo, the site and the deck after the course.
 - **Ankit Kumar:** financial model selection and tuning.
-- **Divya Gopal:** operations model selection.
-- **Aswin Shriram Thiagarajan:** operations data cleaning.
+- **Divya Gopal:** Week 4 pipeline integration, operations model selection and tuning.
+- **Aswin Shriram Thiagarajan:** operations EDA and cleaning.
 
 ## Quick start
 
